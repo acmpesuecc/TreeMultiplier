@@ -1,0 +1,69 @@
+$date
+	Fri Oct 18 22:22:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_final_adder $end
+$var wire 12 ! s [11:0] $end
+$var reg 12 " a [11:0] $end
+$var reg 12 # b [11:0] $end
+$scope module uut $end
+$var wire 12 $ G [11:0] $end
+$var wire 12 % P [11:0] $end
+$var wire 12 & a [11:0] $end
+$var wire 12 ' b [11:0] $end
+$var wire 12 ( s [11:0] $end
+$var wire 13 ) C [12:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1110 )
+b1100 (
+b111 '
+b101 &
+b10 %
+b101 $
+b111 #
+b101 "
+b1100 !
+$end
+#10
+b100 )
+b1111101 !
+b1111101 (
+b10 $
+b1111001 %
+b1001011 #
+b1001011 '
+b110010 "
+b110010 &
+#20
+b11111000000 )
+b10111011100 !
+b10111011100 (
+b111100000 $
+b1000011100 %
+b111110100 #
+b111110100 '
+b1111101000 "
+b1111101000 &
+#30
+b1111111111110 )
+b0 !
+b0 (
+b1 $
+b111111111110 %
+b1 #
+b1 '
+b111111111111 "
+b111111111111 &
+#40
