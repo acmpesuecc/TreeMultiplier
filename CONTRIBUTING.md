@@ -1,6 +1,6 @@
 # Participant: How to Contribute
 
-1. **Visit the HackNight 6.0 Leaderboard**:
+1. **Visit the HackNight 7.0 Leaderboard**:
    Browse the leaderboard and choose a repository you'd like to contribute to!
 
 2. **Check for Open Issues**:
@@ -32,6 +32,7 @@
 
 7. **Get Feedback**
    Wait for a maintainer to review your pull request (PR) and provide feedback.
+   Pull request will be reviewd manually and if it is incomplete or incorrect pull request may be closed.
 
-8. **Gain Bounty Points**
+9. **Gain Bounty Points**
    If everything is approved, your issue will be closed, and you'll gain bounty points on the leaderboard!
