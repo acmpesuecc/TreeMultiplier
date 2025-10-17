@@ -16,8 +16,9 @@
 
 4. **Make Your Changes**
    After cloning and setting up your branch, make the necessary changes to the code in your IDE.
+   If changes to be made in Testbench, your testbench name should be `moduleName_tb.sv` and testbench should be in the same directory as the module.
 
-5. **Commit and Push**:
+6. **Commit and Push**:
    Commit your changes and push them to your fork:
 
    ```bash
@@ -27,10 +28,10 @@
 
    Alternatively, use VSCode's inbuilt Git source control pane `Ctrl+Shift+G` if you're unconfortable with a CLI
 
-6. **Submit a Pull Request**:
+7. **Submit a Pull Request**:
    After pushing your changes, open a pull request to pull changes from your fork to the original repository.
 
-7. **Get Feedback**
+8. **Get Feedback**
    Wait for a maintainer to review your pull request (PR) and provide feedback.
    Pull request will be reviewd manually and if it is incomplete or incorrect pull request may be closed.
 
