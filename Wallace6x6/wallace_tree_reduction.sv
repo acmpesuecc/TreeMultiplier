@@ -1,5 +1,5 @@
 // This module is the core of the Wallace Tree multiplier.
-// it's basically a adder which "ll add parallely the numbers"
+// it's basically a adder which "ll add parallely the numbers "
 
 module wallace_tree_reduction (
     input  logic [5:0] a, // multiplicand

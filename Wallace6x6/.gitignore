@@ -1,0 +1,20 @@
+# Icarus Verilog output files
+*.vvp
+*.vcd
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.out
+
+# Simulation dumps
+dump.vcd
+wave.vcd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
