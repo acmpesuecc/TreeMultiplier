@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module wallace_tree_reduction_tb();
             logic [5:0] A, B;
             logic [11:0] R1,R2;
