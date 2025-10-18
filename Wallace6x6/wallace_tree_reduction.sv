@@ -1,6 +1,8 @@
-module wallace_tree_reduction(a, b, r1, r2);
-	input logic [5:0] a, b;
-	output logic [11:0] r1, r2;
+`timescale 1ns / 1ps
+
+module wallace_tree_reduction(
+	input logic [5:0] A, B,
+	output logic [11:0] R1, R2);
 
 			logic [13:0]S_FA, C_FA;
             logic [14:0]S_HA, C_HA;
@@ -33,7 +35,7 @@ module wallace_tree_reduction(a, b, r1, r2);
 
 			FA fa10(C_FA[4], C_HA[2], S_FA[5], S_FA[9], C_FA[9]);
 
-			HA ha6(C_FA[5] S_HA[3], S_HA[5], C_HA[5]);
+			HA ha6(C_FA[5], S_HA[3], S_HA[5], C_HA[5]);
 
 			HA ha7(C_HA[3], B[5]&A[4], S_HA[6], C_HA[6]);
 
