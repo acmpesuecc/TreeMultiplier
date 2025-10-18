@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 
-module wallace_tree_reduction_tb();
+module top_level_reduction_tb();
     logic [4:0]A,B;
     logic [9:0]P;
-    wallace_tree_reduction UUT(.A(A),.B(B),.P(P));
+    top_level_reduction UUT(.A(A),.B(B),.P(P));
     
     initial
         begin
