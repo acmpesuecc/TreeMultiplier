@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module top_level_multiplier(A, B, P);
 	input logic [5:0] A, B;
 	output logic [11:0] P;
@@ -43,4 +45,3 @@ module top_level_multiplier(A, B, P);
     assign P[12]=R4[11];  
 	
 endmodule 
-
