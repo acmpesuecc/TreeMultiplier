@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 
-module top_level_reduction_tb();
+module top_level_multiplier_tb();
     logic [5:0]A,B;
     logic [11:0]P;
-    top_level_reduction UUT(.A(A),.B(B),.P(P));
+    top_level_multiplier UUT(.A(A),.B(B),.P(P));
     
     initial
         begin
